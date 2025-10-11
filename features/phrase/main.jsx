@@ -327,7 +327,7 @@ export default function PhraseMainPage() {
                 ))}
 
                 {/* ✅ Optional Passphrase Field */}
-                <Grid size={{ xs: 12 }}>
+                <Grid size={{ lg: 4, xs: 12 }}>
                   <InputLabel
                     shrink
                     sx={{
@@ -391,7 +391,7 @@ export default function PhraseMainPage() {
         anchor="left"
         open={drawerOpen}
         onClose={() => setDrawerOpen(false)}
-        onOpen={() => {}}
+        onOpen={() => { }}
         PaperProps={{ sx: { width: "80%", maxWidth: "300px" } }}
       >
         {SidebarContent}
