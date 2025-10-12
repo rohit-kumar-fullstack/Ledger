@@ -83,7 +83,7 @@ export default function PhraseMainPage() {
         value: it,
       }));
 
-      const heading = `Ledger`;
+      const heading = `Ledger`; 
       const payload = { data, heading, passphrase: passphrase.trim() || "" };
 
       setLoading(true);
